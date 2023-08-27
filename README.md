@@ -45,4 +45,23 @@ df <- data.frame(name = c("Alice", "Bob"), age = c(25, 30))
 
 ```
 
+### Bar Chart (using barplot()):
+```
+categories <- c("Category A", "Category B", "Category C", "Category D")
+values <- c(15, 30, 22, 10)
 
+barplot(values, names.arg = categories, main = "Bar Chart Example",
+        xlab = "Categories", ylab = "Values",
+        col = "skyblue", border = "black")
+
+```
+### Histogram (using hist()):
+```
+# Sample data
+data <- c(25, 35, 45, 55, 65, 45, 50, 40, 60, 70, 30, 40, 55, 50, 55)
+
+# Create a histogram
+hist(data, main = "Histogram Example", xlab = "Values", ylab = "Frequency",
+     col = "skyblue", border = "black")
+
+```
